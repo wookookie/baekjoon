@@ -5,10 +5,8 @@ int main() {
   std::cin >> n;
 
   unsigned short numbers[n] {0, };
-  unsigned short input {};
   for (auto &i : numbers) {
-    std::cin >> input;
-    i = input;
+    std::cin >> i;
   }
 
   unsigned short v {};
