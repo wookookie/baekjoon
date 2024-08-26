@@ -1,0 +1,15 @@
+---
+BasedOnStyle: Google
+Language: Cpp
+ColumnLimit: 100
+Cpp11BracedListStyle: false
+DerivePointerAlignment: false
+PointerAlignment: Right
+ReferenceAlignment: Right
+AccessModifierOffset: -2
+BreakBeforeBraces: Custom
+BraceWrapping:
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeWhile: true
+IncludeBlocks: Regroup
